@@ -68,9 +68,7 @@ border-radius: 10px;
 
 
 
-#bttn{
-	margin-left: 10px;
-}
+
 
 #ding{
 	
@@ -80,6 +78,7 @@ border-radius: 10px;
 }
 #parr{
 	margin-top: 50px;
+
 }
 .lost-pad{
 	padding-left: 50px;
@@ -143,7 +142,9 @@ width: 20%;
 	height: 35px;
 }
 
-
+#dom{
+	padding-left: 20px !important;
+}
 
 
 
@@ -154,6 +155,9 @@ width: 20%;
 
 
 @media (min-width: 992px) {
+	#bttn{
+	margin-left: 10px;
+}
   .navbar-expand-lg .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
@@ -194,8 +198,14 @@ margin-left: 50%;
 
 }
 @media (max-width: 767px){
+	#parr{
+	margin-top: 50px;
+	padding-left: 50px;
+	align-items: center;
+}
 	.padd{
-		padding-left: 70px;
+		padding-left: 40px;
+		padding-right: 40px;
 	}
 	.end{
 		padding-right: 50px;
@@ -221,3 +231,9 @@ margin-left: 50%;
 	}
 
 } 
+@media (max-width: 991px){
+#bttn{
+		margin-top: 20px;
+	margin-left: -20px;
+}
+}
