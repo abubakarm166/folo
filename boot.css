@@ -1,0 +1,223 @@
+body{
+	overflow-x:hidden ;
+}
+.nav-item a{
+
+margin-top: 10px;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
+	font-size: 13px;
+color: #616161;
+}
+
+.nav-item button{
+	margin-top: 10px;
+	text-align: center;
+	height: 30px;
+	font-family:  Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
+	font-size: 10px;
+	font-weight: 600;
+	padding-top: -5px;
+}
+.nav-item button.sign{
+	font-weight: 500;
+	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
+	background-color: #FF585D;
+	color: white;
+}
+#welcome{
+	background-image: url("Rectangle 2.png");
+
+}
+
+#wel{
+
+	background-image: url("Mask Group.png");
+	background-position:center;
+	padding-top: 10px;
+
+}
+#aco{
+	background: linear-gradient(89.94deg, #F75355 -8.97%, #E85357 122.63%, #FD6368 122.63%);
+
+}
+.button-wel{
+	background-color:#FF585D ;
+	color: white;
+	border: none;
+			font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
+font-size: 10px;
+font-weight: 600;
+width: 190px;
+height: 35px;
+border-radius: 10px;
+}
+
+#wel-text{
+		font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
+
+	padding-top: 80px;
+	align-items: center;
+}
+
+#wel-text h2{
+	font-weight: 600;
+}
+
+
+
+
+
+
+#bttn{
+	margin-left: 10px;
+}
+
+#ding{
+	
+	background-image: url("Rectangle 14(1).png");
+	background-repeat: no-repeat;
+	background-size:contain;
+}
+#parr{
+	margin-top: 50px;
+}
+.lost-pad{
+	padding-left: 50px;
+}
+#email{
+	background-image: url("Mask Group(.png");
+		background-color: #F9D8D8;
+		border-radius: 10px;
+}
+.input .email-add{
+	border: 1px solid #EC6565;
+	color: #EC6565;
+	border-radius: 5px 0px 0px 5px;
+	height: 44px;
+	width: 60%;
+	font-size: 12px;
+
+	padding-left: 10px;
+
+
+}
+	input.email-btn{
+		margin-top: -4px;
+		margin-left: -10px;
+	}
+.input .email-btn{
+	font-size: 15px;
+width: 20%;
+	border: 1px solid #EC6565;
+	background-color: #EC6565;
+	color: white;
+	border-radius: 0px 5px  5px 0px;
+	height: 44px;
+
+}
+#last input{
+	border: 1px solid #F37373;
+	margin-top: 10px;
+	border-radius: 5px;
+	height: 50px;
+	color: #F37373;
+	font-size: 10px;
+}
+
+#last textarea{
+	border: 1px solid #F37373;
+	margin-top: 10px;
+	border-radius: 5px;
+	color: #F37373;
+	font-size: 10px;
+	height: 70px;
+
+}
+
+#last button{
+	border: 1px solid #F37373;
+	margin-top: 20px;
+	border-radius: 5px;
+	background-color: #EC6565;
+	color: white;
+	height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+
+   margin-left: 40%;
+  }
+.nav-item button.bttn{
+	margin-left: -50px;
+}
+
+}
+@media (max-width: 1366px){
+.nav-item{
+	margin-left: 15px;
+}
+
+	.navbar-expand-lg .navbar-collapse{
+margin-left: 55%;
+
+	}
+#aco {
+  background: linear-gradient(89.94deg, #F75355 -8.97%, #E85357 122.63%, #FD6368 122.63%);
+  margin-top: 60px;}
+
+}
+@media (max-width: 1199px){
+.nav-item{
+	margin-left: 15px;
+}
+
+	.navbar-expand-lg .navbar-collapse{
+margin-left: 50%;
+
+	}
+
+
+
+
+}
+@media (max-width: 767px){
+	.padd{
+		padding-left: 70px;
+	}
+	.end{
+		padding-right: 50px;
+	}
+	.endd{
+		padding-right: 50px;
+		padding-right: 50px;
+	}
+	input.email-btn
+{
+	font-size: 10px !important;
+}
+}
+
+@media (max-width: 1080px){
+.nav-item{
+	margin-left: 15px;
+}
+
+	.navbar-expand-lg .navbar-collapse{
+margin-left: 50%;
+
+	}
+
+} 
