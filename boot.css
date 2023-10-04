@@ -62,8 +62,14 @@ border-radius: 10px;
 #wel-text h2{
 	font-weight: 600;
 }
-
-
+.Vis{
+	color: #7B57D2;
+/*	font-size: 8px;*/
+}
+.our{
+/*	font-size: 5px;*/
+	color: gray;
+}
 
 
 
@@ -130,7 +136,8 @@ width: 20%;
 	color: #F37373;
 	font-size: 10px;
 	height: 70px;
-
+/*columns: 9;
+*/
 }
 
 #last button{
@@ -145,16 +152,33 @@ width: 20%;
 #dom{
 	padding-left: 20px !important;
 }
+#prp{
+	background-color:#F9F9F9;
+	border-radius: 10px;
+}
 
 
 
+@media (max-width: 991px) {
 
+.Vis{
+	color: #7B57D2;
+	font-size: 8px !important;
+	
+}
+.our{
 
+	font-size: 6px !important;
+	color: gray;
+	margin-top: -8px !important;
 
+}
+}
 
 
 
 @media (min-width: 992px) {
+	
 	#bttn{
 	margin-left: 10px;
 }
@@ -162,14 +186,25 @@ width: 20%;
     display: flex !important;
     flex-basis: auto;
 
-   margin-left: 40%;
+/*   margin-left: 40%;*/
   }
+  
 .nav-item button.bttn{
 	margin-left: -50px;
 }
 
 }
 @media (max-width: 1366px){
+
+.Vis{
+	color: #7B57D2;
+	font-size: 12px;
+}
+.our{
+	font-size: 10px;
+	color: gray;
+}
+
 .nav-item{
 	margin-left: 15px;
 }
@@ -189,7 +224,7 @@ margin-left: 55%;
 }
 
 	.navbar-expand-lg .navbar-collapse{
-margin-left: 50%;
+/*margin-left: 50%;*/
 
 	}
 
@@ -198,6 +233,19 @@ margin-left: 50%;
 
 }
 @media (max-width: 767px){
+	.Vis{
+	color: #7B57D2;
+	font-size: 20px !important;
+	
+}
+.our{
+
+	font-size: 15px !important;
+	color: gray;
+	margin-top: -8px !important;
+
+}
+
 	#parr{
 	margin-top: 50px;
 	padding-left: 50px;
@@ -226,14 +274,18 @@ margin-left: 50%;
 }
 
 	.navbar-expand-lg .navbar-collapse{
-margin-left: 50%;
+/*margin-left: 50%;*/
 
 	}
 
 } 
 @media (max-width: 991px){
+	.navbar-expand-lg .navbar-collapse{
+margin-left: 0%;
+
+	}
 #bttn{
 		margin-top: 20px;
-	margin-left: -20px;
+	
 }
 }
